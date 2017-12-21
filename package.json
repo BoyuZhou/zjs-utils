@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf lib && babel src -d lib"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,10 @@
     "crypto": "^1.0.1",
     "moment": "^2.19.3",
     "warning": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rimraf": "^2.6.2"
   }
 }

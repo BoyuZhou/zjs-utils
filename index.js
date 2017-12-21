@@ -1,11 +1,11 @@
 
-exports.bugfree = require('./lib/bugfree');
+exports.bugfree = require('./src/bugfree');
 
-exports.randomString = require('./lib/randomString');
+exports.randomString = require('./src/randomString');
 
-exports.moment = require('./lib/moment');
+exports.moment = require('./src/moment');
 
-exports.warning = require('./lib/warning');
+exports.warning = require('./src/warning');
 
-exports.encrypt = require('./lib/encrypt');
+exports.encrypt = require('./src/encrypt');
 
